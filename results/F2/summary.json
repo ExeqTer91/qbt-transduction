@@ -1,0 +1,38 @@
+{
+  "p_values": [
+    1.0,
+    0.8,
+    0.5,
+    0.2
+  ],
+  "results": [
+    {
+      "p_singlet": 1.0,
+      "u_star": 2.25,
+      "width": 2.0,
+      "amplitude": 0.5218400948551976
+    },
+    {
+      "p_singlet": 0.8,
+      "u_star": 2.25,
+      "width": 2.0,
+      "amplitude": 0.4174720758841577
+    },
+    {
+      "p_singlet": 0.5,
+      "u_star": 2.25,
+      "width": 2.0,
+      "amplitude": 0.2609200474275939
+    },
+    {
+      "p_singlet": 0.2,
+      "u_star": 2.25,
+      "width": 2.0,
+      "amplitude": 0.10436801897104186
+    }
+  ],
+  "u_star_mean": 2.25,
+  "u_star_std": 0.0,
+  "initial_state_invariant": true,
+  "collapse_correlation": 1.0
+}

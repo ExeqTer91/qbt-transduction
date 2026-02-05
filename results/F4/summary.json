@@ -1,0 +1,28 @@
+{
+  "results": {
+    "no_detrend": {
+      "name": "no_detrend",
+      "u_star": 0.55,
+      "width": 1.05,
+      "amplitude": 0.004995443392157739,
+      "n_peaks": 1
+    },
+    "linear_detrend": {
+      "name": "linear",
+      "u_star": 0.7,
+      "width": 0.6000000000000001,
+      "amplitude": 0.0025162157160194087,
+      "n_peaks": 1
+    },
+    "poly_detrend": {
+      "name": "poly",
+      "u_star": 0.55,
+      "width": 2.1,
+      "amplitude": 0.0016132392435773296,
+      "n_peaks": 1
+    }
+  },
+  "ghost_score": 0,
+  "detrend_robust": true,
+  "u_star_consistency": 0.07071067811865471
+}

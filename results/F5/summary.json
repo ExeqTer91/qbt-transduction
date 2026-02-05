@@ -1,0 +1,14 @@
+{
+  "markov": {
+    "u_star": 0.5,
+    "width": 1.0,
+    "amplitude": 0.004924567777811806
+  },
+  "telegraph": {
+    "u_star": 0.5,
+    "width": 1.0,
+    "amplitude": 0.004872154018981001
+  },
+  "u_star_difference": 0.0,
+  "nonmarkov_robust": true
+}

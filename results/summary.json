@@ -1,0 +1,372 @@
+{
+  "rpm": {
+    "A1": {
+      "u_position": 1.0,
+      "u_std": 0.0,
+      "position_invariant": true,
+      "amplitude_mean": 0.0015205664698377808,
+      "amplitude_std": 0.0005939470960363926,
+      "amplitude_relative_variance": 0.3906090972134595
+    },
+    "A2": {
+      "optimal_gamma": 2.0,
+      "max_anisotropy": 0.07772061775046368,
+      "enhancement": 903.1852901676632
+    },
+    "A3": {
+      "max_A1": 0.002921016675806576,
+      "max_A0": 8.85400805190617e-05,
+      "drop_factor": 32.990896989050206
+    }
+  },
+  "toy": {
+    "B3_collapse": {
+      "correlation": 0.930209271102135,
+      "all_pairwise": [
+        0.930209271102135
+      ]
+    },
+    "B3_plateau": {
+      "shelf_center": 3.0,
+      "shelf_width": 4.0,
+      "shelf_amplitude": 0.2842796382171717
+    }
+  },
+  "conclusions": {
+    "position_invariant": true,
+    "noise_enhanced": true,
+    "hyperfine_essential": true,
+    "toy_has_plateau": true,
+    "collapse_correlation": 0.930209271102135
+  },
+  "suite_a": {
+    "u_star": 0.5,
+    "width": 1.0,
+    "amplitude": 0.004924567777811806,
+    "collapse_score": 0.9477451693584563
+  },
+  "suite_b": {
+    "A=1.0": {
+      "u=0.5": {
+        "theta_max": [
+          0.0,
+          180.0,
+          180.0
+        ],
+        "B_range": [
+          20,
+          60,
+          100
+        ],
+        "flip_detected": true
+      },
+      "u=1.0": {
+        "theta_max": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "B_range": [
+          20,
+          60,
+          100
+        ],
+        "flip_detected": false
+      },
+      "u=1.5": {
+        "theta_max": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "B_range": [
+          20,
+          60,
+          100
+        ],
+        "flip_detected": false
+      }
+    },
+    "A=0.0": {
+      "u=0.5": {
+        "theta_max": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "B_range": [
+          20,
+          60,
+          100
+        ],
+        "flip_detected": false
+      },
+      "u=1.0": {
+        "theta_max": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "B_range": [
+          20,
+          60,
+          100
+        ],
+        "flip_detected": false
+      },
+      "u=1.5": {
+        "theta_max": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "B_range": [
+          20,
+          60,
+          100
+        ],
+        "flip_detected": false
+      }
+    }
+  },
+  "suite_c": {
+    "dephase_values": [
+      0.01,
+      0.1,
+      0.5
+    ],
+    "integrity_scores": [
+      0.9882763363752942,
+      0.9880595612044085,
+      0.9809248456737996
+    ],
+    "collapse_scores": [
+      0.9765526727505884,
+      0.9765656766019829,
+      0.9768095258091929
+    ],
+    "continuity_scores": [
+      1.0,
+      0.9995534458068343,
+      0.9850401655384063
+    ],
+    "amplitudes": [
+      0.0025348465459095193,
+      0.021092147233742087,
+      0.05688780714391317
+    ],
+    "optimal_dephase": 0.01,
+    "stabilizing": false,
+    "fracturing": true
+  },
+  "suite_d": {
+    "gap_min_u": 0.125,
+    "gap_min_value": 0.0,
+    "aniso_max_u": 0.4375,
+    "gap_aniso_correlation": -0.15312893436369468,
+    "n_avoided_crossings": 0,
+    "avoided_crossings": []
+  },
+  "suite_e": {
+    "p_range": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "anisotropies": [
+      0.001396227661116578,
+      0.000195986859870656,
+      0.0010042539413738227,
+      0.002204494742621632,
+      0.0034047355438650007
+    ],
+    "yields_0": [
+      0.3848621394194497,
+      0.5057354426241014,
+      0.6266087458287529,
+      0.7474820490334052,
+      0.8683553522380557
+    ],
+    "yields_90": [
+      0.38625836708056627,
+      0.5059314294839721,
+      0.6256044918873791,
+      0.7452775542907836,
+      0.8649506166941907
+    ],
+    "relative_change": 1.4385246322524492,
+    "threshold_p": 0.25,
+    "pure_singlet_aniso": 0.0034047355438650007,
+    "mixed_aniso": 0.001396227661116578
+  },
+  "mechanism_conclusions": {
+    "shelf_found": true,
+    "shelf_width": 1.0,
+    "shelf_center": 0.5,
+    "drift_detected": true,
+    "noise_stabilizes": false,
+    "noise_fractures": true,
+    "spectral_gap_correlated": false,
+    "purity_sensitive": true
+  },
+  "F_tests": {
+    "F1_spectral": {
+      "u_points": [
+        -0.5,
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "gaps": [
+        0.023726940776664998,
+        0.027749800430811093,
+        0.04038429811255616,
+        0.008585418424810753,
+        8.049116928532385e-16,
+        2.220446049250313e-16
+      ],
+      "mode_swap_scores": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "gap_min_u": 2.0,
+      "aniso_max_u": 0.5,
+      "spectral_alignment": true,
+      "alignment_metric": 0.4,
+      "max_swap_score": 2
+    },
+    "F2_initial_state": {
+      "p_values": [
+        1.0,
+        0.8,
+        0.5,
+        0.2
+      ],
+      "results": [
+        {
+          "p_singlet": 1.0,
+          "u_star": 2.25,
+          "width": 2.0,
+          "amplitude": 0.5218400948551976
+        },
+        {
+          "p_singlet": 0.8,
+          "u_star": 2.25,
+          "width": 2.0,
+          "amplitude": 0.4174720758841577
+        },
+        {
+          "p_singlet": 0.5,
+          "u_star": 2.25,
+          "width": 2.0,
+          "amplitude": 0.2609200474275939
+        },
+        {
+          "p_singlet": 0.2,
+          "u_star": 2.25,
+          "width": 2.0,
+          "amplitude": 0.10436801897104186
+        }
+      ],
+      "u_star_mean": 2.25,
+      "u_star_std": 0.0,
+      "initial_state_invariant": true,
+      "collapse_correlation": 1.0
+    },
+    "F3_readout": {
+      "tmax_values": [
+        1.0,
+        3.0,
+        6.0,
+        12.0
+      ],
+      "results": [
+        {
+          "tmax": 1.0,
+          "amplitude": 6.60748185310478e-06,
+          "width": 1.0,
+          "collapse_score": 0.995477222648607,
+          "integrity": 0.20393103402189888
+        },
+        {
+          "tmax": 3.0,
+          "amplitude": 0.0007581209475111539,
+          "width": 1.0,
+          "collapse_score": 0.9948683805854354,
+          "integrity": 0.1219496813631258
+        },
+        {
+          "tmax": 6.0,
+          "amplitude": 0.004924567777811806,
+          "width": 1.0,
+          "collapse_score": 0.994894772932019,
+          "integrity": 0.11879100311808494
+        },
+        {
+          "tmax": 12.0,
+          "amplitude": 0.00839493849842754,
+          "width": 1.0,
+          "collapse_score": 0.9941913512478432,
+          "integrity": 0.11511792912389178
+        }
+      ],
+      "readout_required": false,
+      "integrity_trend": "stable"
+    },
+    "F4_detrend": {
+      "results": {
+        "no_detrend": {
+          "name": "no_detrend",
+          "u_star": 0.55,
+          "width": 1.05,
+          "amplitude": 0.004995443392157739,
+          "n_peaks": 1
+        },
+        "linear_detrend": {
+          "name": "linear",
+          "u_star": 0.7,
+          "width": 0.6000000000000001,
+          "amplitude": 0.0025162157160194087,
+          "n_peaks": 1
+        },
+        "poly_detrend": {
+          "name": "poly",
+          "u_star": 0.55,
+          "width": 2.1,
+          "amplitude": 0.0016132392435773296,
+          "n_peaks": 1
+        }
+      },
+      "ghost_score": 0,
+      "detrend_robust": true,
+      "u_star_consistency": 0.07071067811865471
+    },
+    "F5_nonmarkov": {
+      "markov": {
+        "u_star": 0.5,
+        "width": 1.0,
+        "amplitude": 0.004924567777811806
+      },
+      "telegraph": {
+        "u_star": 0.5,
+        "width": 1.0,
+        "amplitude": 0.004872154018981001
+      },
+      "u_star_difference": 0.0,
+      "nonmarkov_robust": true
+    }
+  },
+  "spectral_alignment": true,
+  "initial_state_invariant": true,
+  "readout_required": false,
+  "detrend_robust": true,
+  "nonmarkov_robust": true
+}

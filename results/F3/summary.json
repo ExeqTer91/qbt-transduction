@@ -1,0 +1,40 @@
+{
+  "tmax_values": [
+    1.0,
+    3.0,
+    6.0,
+    12.0
+  ],
+  "results": [
+    {
+      "tmax": 1.0,
+      "amplitude": 6.60748185310478e-06,
+      "width": 1.0,
+      "collapse_score": 0.995477222648607,
+      "integrity": 0.20393103402189888
+    },
+    {
+      "tmax": 3.0,
+      "amplitude": 0.0007581209475111539,
+      "width": 1.0,
+      "collapse_score": 0.9948683805854354,
+      "integrity": 0.1219496813631258
+    },
+    {
+      "tmax": 6.0,
+      "amplitude": 0.004924567777811806,
+      "width": 1.0,
+      "collapse_score": 0.994894772932019,
+      "integrity": 0.11879100311808494
+    },
+    {
+      "tmax": 12.0,
+      "amplitude": 0.00839493849842754,
+      "width": 1.0,
+      "collapse_score": 0.9941913512478432,
+      "integrity": 0.11511792912389178
+    }
+  ],
+  "readout_required": false,
+  "integrity_trend": "stable"
+}
